@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PrepareBattle</class>
+ <widget class="QWidget" name="PrepareBattle">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>430</y>
+     <width>411</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>你的精灵选择</string>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QTableView" name="myTableView"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>10</y>
+     <width>411</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>选择对手</string>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QTableView" name="opponentTableView"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>320</y>
+     <width>321</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请点击双方精灵名字后，点击开始按钮开始对战</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="beginBattleButton">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>380</y>
+     <width>92</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

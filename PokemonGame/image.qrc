@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/loginback.jpg</file>
+        <file>image/Onega_Town.png</file>
+        <file>image/gym_background.jpg</file>
+        <file>image/prepare_battle.jpg</file>
+        <file>image/bulbasaur.png</file>
+        <file>image/charmander.png</file>
+        <file>image/pikachu.png</file>
+        <file>image/squirtle.png</file>
+        <file>image/forest.jpg</file>
+        <file>image/pokemon_go_eggs.jpeg</file>
+        <file>image/pokemon_bg.jpg</file>
+        <file>image/ball.jpg</file>
+    </qresource>
+</RCC>

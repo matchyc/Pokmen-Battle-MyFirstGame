@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1300</width>
+    <height>900</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="locLabel">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>70</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="checkUserButton">
+    <property name="geometry">
+     <rect>
+      <x>434</x>
+      <y>320</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>查看游戏用户</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="trainGameButton">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>390</y>
+      <width>92</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>升级试炼</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="duelGameButton">
+    <property name="geometry">
+     <rect>
+      <x>451</x>
+      <y>133</y>
+      <width>92</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>道馆决斗</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="challengeButton">
+    <property name="geometry">
+     <rect>
+      <x>652</x>
+      <y>386</y>
+      <width>92</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>挑战大厅</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
